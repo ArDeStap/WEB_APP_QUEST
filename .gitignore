@@ -13,7 +13,8 @@ node_modules
 /build
 
 # misc
-
+ssh_key
+*.pub
 .DS_Store
 .env.local
 .env.development.local
