@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  width: 78%;
+  height: 80%;
+  margin-bottom: 6%;
+  margin-left: 7%;
+  margin-top: 6%;
+  font-size: 14pt;
+  line-height: 25pt;
+  top: 0;
+  flex-direction: column;
+  color: rgb(243, 245, 242);
+}
+
+.test {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+
+.HideBtn {
+  width: 20ch;
+  height: 20ch;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+  border: none;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 80%;
+  margin-right: 4%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border: 5px solid rgba(0, 0, 0, 0);
+  border-radius: 43px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  opacity: 56%;
+  padding: 15px;
+  color: chartreuse;
+}
+
+
+.stylesss {
+  border:3px solid black; 
+  margin:auto; 
+  display:block
+}
+
+.radio {
+  padding-right: 25px;
+  size: 15pt
+}
+
+.imageOn{
+  height: 240pt;
+  padding-bottom: 20px;
+
+}
+
+.BtnHide {
+
+  display: none;
+}
+
+.BtnShow {
+  position: absolute;
+  bottom: 5%;
+  right: 7%;
+  border: #44F86C;
+  border-radius: 80px;
+  width: 30.2%;
+  height: 5.4%;
+  background-color: #44F86C;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font: 'Roboto';
+  padding: 50px;
+}
+
+
+.input[type=name],[type=password],[type=email] {
+  padding-top: 1px;
+  padding-bottom: 3px;
+  border: 3px solid #171C97;
+  border-radius: 2px;
+  background-color: #02213277;
+  transform: skew(-20deg);
+  padding-left: 5px;
+  text-transform: skew(20deg);
+  font-style: normal;
+  color: white
+}
+
+
+
+.button[type=submit]{
+  padding-top: 1px;
+  padding-bottom: 3px;
+  margin-left: 5px;
+  width: 100px;
+  height: 28px;
+  border: 2px solid #171C97;
+  border-radius: 2px;
+  background-color: #090C57;
+  transform: skew(-20deg);
+  color: white
+}
